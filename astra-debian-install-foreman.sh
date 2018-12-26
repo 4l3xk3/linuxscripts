@@ -45,7 +45,7 @@ echo_ru "Установка foreman .."
 echo_en "Install foreman .."
 
 apt update
-apt install foreman foreman-sqlite3 foreman-libvirt
+apt install foreman foreman-sqlite3 foreman-libvirt ruby-logging
 
 
 if [ -f /etc/foreman/database.yml ] ; then
