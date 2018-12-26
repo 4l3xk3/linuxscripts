@@ -36,7 +36,7 @@ echo_en "Creating /etc/apt/sources.list.d/foreman.conf .."
 echo "deb http://deb.theforeman.org/ stretch 1.20" > /etc/apt/sources.list.d/foreman.list
 echo "deb http://deb.theforeman.org/ plugins 1.20" >> /etc/apt/sources.list.d/foreman.list
 
-echo_ru "Добаление ключа foreman в APT .."
+echo_ru "Добавление ключа foreman в APT .."
 echo_en "Add foreman key to APT .."
 
 wget -q https://deb.theforeman.org/pubkey.gpg -O- | apt-key add -
